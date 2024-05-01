@@ -12,7 +12,10 @@
     <link href="./backend/dist/css/tabler-flags.min.css?1684106062" rel="stylesheet" />
     <link href="./backend/dist/css/tabler-payments.min.css?1684106062" rel="stylesheet" />
     <link href="./backend/dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet" />
+
     @stack('stylesheets')
+    @livewireStyles
+
     <link href="./backend/dist/css/demo.min.css?1684106062" rel="stylesheet" />
     <style>
         @import url('https://rsms.me/inter/inter.css');
@@ -34,7 +37,10 @@
     <!-- Libs JS -->
     <!-- Tabler Core -->
     <script src="./backend/dist/js/tabler.min.js?1684106062" defer></script>
+    
     @stack('scripts')
+    @livewireScripts
+
     <script src="./backend/dist/js/demo.min.js?1684106062" defer></script>
 </body>
 
